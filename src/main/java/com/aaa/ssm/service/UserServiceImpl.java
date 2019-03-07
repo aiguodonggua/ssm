@@ -30,6 +30,7 @@ public class UserServiceImpl implements UserService {
         System.out.println("biangeg2");
         System.out.println("biangeg2");
         System.out.println("第二次");
+        System.out.println("第二次蔡哥2");
         return userDao.getUserList();
     }
 }
