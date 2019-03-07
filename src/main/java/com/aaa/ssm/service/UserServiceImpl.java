@@ -23,6 +23,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<Map> getUserList() {
-            return userDao.getUserList();
+        System.out.println("biangeg ");
+        return userDao.getUserList();
     }
 }
