@@ -25,6 +25,10 @@ public class UserServiceImpl implements UserService {
     public List<Map> getUserList() {
         System.out.println("biangeg ");
         System.out.println("biangeg1 ");
+        System.out.println("biangeg2");
+        System.out.println("biangeg2");
+        System.out.println("biangeg2");
+        System.out.println("biangeg2");
         return userDao.getUserList();
     }
 }
