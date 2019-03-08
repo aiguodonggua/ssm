@@ -3,6 +3,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.aaa.ssm.dao.UserDao">
     <select id="getUserList" resultType="map">
-        select * from book_info
+        select auther from book_info
     </select>
 </mapper>
